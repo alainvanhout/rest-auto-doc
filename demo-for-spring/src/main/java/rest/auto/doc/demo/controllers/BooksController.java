@@ -4,7 +4,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
-import rest.auto.doc.ApiDocumented;
+import rest.auto.doc.libs.ApiDocumented;
 import rest.auto.doc.demo.dtos.Author;
 import rest.auto.doc.demo.dtos.Book;
 

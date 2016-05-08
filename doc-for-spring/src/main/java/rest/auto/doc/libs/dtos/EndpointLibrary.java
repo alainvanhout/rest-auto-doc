@@ -1,8 +1,6 @@
-package rest.auto.doc.dtos;
+package rest.auto.doc.libs.dtos;
 
-import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 public class EndpointLibrary {

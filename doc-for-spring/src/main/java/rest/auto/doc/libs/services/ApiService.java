@@ -1,18 +1,16 @@
-package rest.auto.doc.services;
+package rest.auto.doc.libs.services;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-import rest.auto.doc.ApiDocumented;
-import rest.auto.doc.annotations.Resource;
-import rest.auto.doc.dtos.Action;
-import rest.auto.doc.dtos.EndpointLibrary;
-import rest.auto.doc.providers.ResourceInterpreter;
+import rest.auto.doc.libs.ApiDocumented;
+import rest.auto.doc.libs.dtos.Action;
+import rest.auto.doc.libs.dtos.EndpointLibrary;
+import rest.auto.doc.libs.providers.ResourceInterpreter;
 import sun.reflect.generics.reflectiveObjects.ParameterizedTypeImpl;
 
 import javax.annotation.PostConstruct;
-import javax.validation.constraints.NotNull;
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
@@ -20,7 +18,6 @@ import java.lang.reflect.Parameter;
 import java.lang.reflect.Type;
 import java.util.*;
 import java.util.function.BiConsumer;
-import java.util.function.Function;
 import java.util.stream.Collectors;
 
 @Service

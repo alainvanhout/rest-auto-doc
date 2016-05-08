@@ -1,6 +1,6 @@
-package rest.auto.doc.controllers;
+package rest.auto.doc.libs.controllers;
 
-import rest.auto.doc.services.ApiService;
+import rest.auto.doc.libs.services.ApiService;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import org.springframework.beans.factory.annotation.Autowired;

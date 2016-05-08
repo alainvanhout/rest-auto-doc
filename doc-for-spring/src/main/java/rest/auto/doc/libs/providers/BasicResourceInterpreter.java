@@ -1,13 +1,12 @@
-package rest.auto.doc.providers;
+package rest.auto.doc.libs.providers;
 
 import org.springframework.stereotype.Component;
-import rest.auto.doc.annotations.Resource;
+import rest.auto.doc.libs.annotations.Resource;
 
 import javax.validation.constraints.Max;
 import javax.validation.constraints.Min;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
-import java.lang.annotation.Annotation;
 import java.lang.reflect.Field;
 import java.util.*;
 import java.util.function.BiConsumer;

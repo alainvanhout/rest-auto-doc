@@ -1,4 +1,4 @@
-package rest.auto.doc.providers;
+package rest.auto.doc.libs.providers;
 
 import java.lang.reflect.Field;
 import java.util.Collection;

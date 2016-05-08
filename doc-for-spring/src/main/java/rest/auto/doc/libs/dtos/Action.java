@@ -1,4 +1,4 @@
-package rest.auto.doc.dtos;
+package rest.auto.doc.libs.dtos;
 
 import java.util.Map;
 

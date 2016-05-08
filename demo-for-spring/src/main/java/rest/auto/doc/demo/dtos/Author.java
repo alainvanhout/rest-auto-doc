@@ -1,6 +1,6 @@
 package rest.auto.doc.demo.dtos;
 
-import rest.auto.doc.annotations.Resource;
+import rest.auto.doc.libs.annotations.Resource;
 
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
