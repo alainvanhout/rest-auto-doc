@@ -1,4 +1,4 @@
-package rest.auto.doc;
+package rest.auto.doc.libs;
 
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;

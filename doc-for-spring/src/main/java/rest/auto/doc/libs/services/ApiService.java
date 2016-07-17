@@ -47,7 +47,6 @@ public class ApiService {
                     .map(ResourceInterpreter::getResourceInterfaces)
                     .forEach(resourceInterfaces::addAll);
 
-
             resourceInterpreters.stream()
                     .map(ResourceInterpreter::getFieldModifiers)
                     .forEach(fieldModifiers::putAll);

@@ -44,4 +44,20 @@ public class Action {
     public String getPath() {
         return path;
     }
+
+    public void setMethod(String method) {
+        this.method = method;
+    }
+
+    public void setRequestBody(Map<String, ?> requestBody) {
+        this.requestBody = requestBody;
+    }
+
+    public void setResponseBody(Map<String, ?> responseBody) {
+        this.responseBody = responseBody;
+    }
+
+    public void setPath(String path) {
+        this.path = path;
+    }
 }

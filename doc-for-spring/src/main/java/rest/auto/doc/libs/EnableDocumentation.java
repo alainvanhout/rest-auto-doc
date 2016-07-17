@@ -9,6 +9,6 @@ import java.lang.annotation.Target;
 
 @Target(ElementType.TYPE)
 @Retention(RetentionPolicy.RUNTIME)
-@Import(EnableRestAutoDoc.class)
-public @interface EnableRestAutoDoc {
+@Import(RestAutoDocConfiguration.class)
+public @interface EnableDocumentation {
 }

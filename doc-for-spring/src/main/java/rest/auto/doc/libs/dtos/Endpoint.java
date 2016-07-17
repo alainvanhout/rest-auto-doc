@@ -10,4 +10,8 @@ public class Endpoint {
     public void add(Action action) {
         actions.add(action);
     }
+
+    public List<Action> getActions() {
+        return actions;
+    }
 }
