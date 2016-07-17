@@ -1,5 +1,6 @@
 package rest.auto.doc.libs.controllers;
 
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.ui.Model;
 import rest.auto.doc.libs.services.ApiService;
 import com.google.gson.Gson;
@@ -14,9 +15,12 @@ public class DocumentingController {
     @Autowired
     private ApiService apiService;
 
+    @Value("${rest.auto.doc.template:documentation}")
+    private String template;
+
     @RequestMapping
     private String getControllerNames(Model model) {
         model.addAttribute("library", apiService.getEndpointLibrary());
-        return "documentation";
+        return template;
     }
 }
